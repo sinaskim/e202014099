@@ -1,5 +1,4 @@
 public class Hello{
-    String msg = "hello";
 
     public Hello(String msg){
         this.msg = msg;
@@ -7,4 +6,9 @@ public class Hello{
     public void say(){
         System.out.println(msg);
     }
+    
+    public void say(String msg){
+    String msg = "hello";
+
+    
 }
